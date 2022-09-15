@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             //veri ekleme
-            //database.execSQL("INSERT INTO Muzisyenler(name , age) values ('ahmet',50)");
+            database.execSQL("INSERT INTO Muzisyenler(name , age) values ('ahmet',50)");
             //database.execSQL("INSERT INTO Muzisyenler(name , age) values ('mehmet',20)");
 
             //veriyi okumak
